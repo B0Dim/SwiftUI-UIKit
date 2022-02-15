@@ -11,6 +11,8 @@
 		08ED316727BB79EB0004EDB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ED316627BB79EB0004EDB9 /* ContentView.swift */; };
 		08ED316927BB79ED0004EDB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08ED316827BB79ED0004EDB9 /* Assets.xcassets */; };
 		08ED316C27BB79ED0004EDB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08ED316B27BB79ED0004EDB9 /* Preview Assets.xcassets */; };
+		08ED317327BB7A790004EDB9 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ED317227BB7A790004EDB9 /* SliderView.swift */; };
+		08ED317527BB87BA0004EDB9 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ED317427BB87BA0004EDB9 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		08ED316627BB79EB0004EDB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08ED316827BB79ED0004EDB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08ED316B27BB79ED0004EDB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08ED317227BB7A790004EDB9 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		08ED317427BB87BA0004EDB9 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				08ED316427BB79EB0004EDB9 /* SwiftUI_UIKitApp.swift */,
 				08ED316627BB79EB0004EDB9 /* ContentView.swift */,
+				08ED317427BB87BA0004EDB9 /* ButtonView.swift */,
+				08ED317227BB7A790004EDB9 /* SliderView.swift */,
 				08ED316827BB79ED0004EDB9 /* Assets.xcassets */,
 				08ED316A27BB79ED0004EDB9 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08ED317327BB7A790004EDB9 /* SliderView.swift in Sources */,
 				08ED316727BB79EB0004EDB9 /* ContentView.swift in Sources */,
+				08ED317527BB87BA0004EDB9 /* ButtonView.swift in Sources */,
 				08ED316527BB79EB0004EDB9 /* SwiftUI_UIKitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
